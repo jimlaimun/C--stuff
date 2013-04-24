@@ -23,7 +23,7 @@ FiiringMissile::FiiringMissile(MyProjectMain* pEngine, int iID,int xstart,int ys
 	ytar = yend;
 
 	//movement initialization
-	SetMovement(Engine->GetTime(),Engine->GetTime()+500,Engine->GetTime(),xcoord,ycoord,xtar,ytar);
+	SetMovement(Engine->GetTime(),Engine->GetTime()+300,Engine->GetTime(),xcoord,ycoord,xtar,ytar);
 
 
 	// Just put it somewhere initially
@@ -117,7 +117,7 @@ void FiiringMissile::DoUpdate(int CurrentTime)
 		xtar = Engine->GetMouseXClickedDown();
 		ytar= Engine->GetMouseYClickedDown();
 		//new FiiringMissile(Engine,GetID(),xcoord,ycoord,xtar,ytar);
-		m_oMovement.Setup(xcoord,ycoord,xtar,ytar,CurrentTime,CurrentTime+500);
+		m_oMovement.Setup(xcoord,ycoord,xtar,ytar,CurrentTime,CurrentTime+300);
 
 	}
 

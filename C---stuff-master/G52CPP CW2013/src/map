@@ -1,6 +1,6 @@
  CourseworkBase
 
- Timestamp is 5177300f (Wed Apr 24 02:06:23 2013)
+ Timestamp is 5177442d (Wed Apr 24 03:32:13 2013)
 
  Preferred load address is 00400000
 
@@ -61,6 +61,7 @@
  0001:00001660       ??0?$allocator@D@std@@QAE@XZ 00402660 f i Base.obj
  0001:00001680       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 00402680 f i Base.obj
  0001:000016e0       ??0Base@@QAE@PAVMyProjectMain@@HHHH@Z 004026e0 f   Base.obj
+ 0001:000017e0       ??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV01@@Z 004027e0 f i MyProjectMain.obj
  0001:00001820       ??0_Generic_error_category@std@@QAE@XZ 00402820 f i Base.obj
  0001:00001850       ??0_Iostream_error_category@std@@QAE@XZ 00402850 f i Base.obj
  0001:00001880       ??0_System_error_category@std@@QAE@XZ 00402880 f i Base.obj
@@ -77,12 +78,12 @@
  0001:00001a90       ??8error_condition@std@@QBE_NABV01@@Z 00402a90 f i Base.obj
  0001:00001b10       ??_GBase@@UAEPAXI@Z        00402b10 f i Base.obj
  0001:00001b10       ??_EBase@@UAEPAXI@Z        00402b10 f i Base.obj
- 0001:00001b60       ??_G_Generic_error_category@std@@UAEPAXI@Z 00402b60 f i Base.obj
  0001:00001b60       ??_E_Generic_error_category@std@@UAEPAXI@Z 00402b60 f i Base.obj
+ 0001:00001b60       ??_G_Generic_error_category@std@@UAEPAXI@Z 00402b60 f i Base.obj
  0001:00001bb0       ??_G_Iostream_error_category@std@@UAEPAXI@Z 00402bb0 f i Base.obj
  0001:00001bb0       ??_E_Iostream_error_category@std@@UAEPAXI@Z 00402bb0 f i Base.obj
- 0001:00001c00       ??_G_System_error_category@std@@UAEPAXI@Z 00402c00 f i Base.obj
  0001:00001c00       ??_E_System_error_category@std@@UAEPAXI@Z 00402c00 f i Base.obj
+ 0001:00001c00       ??_G_System_error_category@std@@UAEPAXI@Z 00402c00 f i Base.obj
  0001:00001c50       ??_Eerror_category@std@@UAEPAXI@Z 00402c50 f i Base.obj
  0001:00001c50       ??_Gerror_category@std@@UAEPAXI@Z 00402c50 f i Base.obj
  0001:00001ca0       ?DoUpdate@Base@@UAEXH@Z    00402ca0 f   Base.obj
@@ -96,6 +97,8 @@
  0001:00001e70       ?RedrawObjects@DisplayableObject@@QAEXXZ 00402e70 f i Base.obj
  0001:00001ea0       ?SetVisible@DisplayableObject@@QAEX_N@Z 00402ea0 f i Base.obj
  0001:00001ed0       ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 00402ed0 f i Base.obj
+ 0001:00002090       ??$move@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@std@@YA$$QAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@@Z 00403090 f i MyProjectMain.obj
+ 0001:000020b0       ?close@?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXXZ 004030b0 f i MyProjectMain.obj
  0001:00002100       ?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 00403100 f i Base.obj
  0001:00002150       ?_Getal@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBE?AU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ 00403150 f i Base.obj
  0001:00002180       ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z 00403180 f i Base.obj
@@ -154,14 +157,18 @@
  0001:00003140       ?SetPixel@BaseEngine@@QAEXHHIPAUSDL_Surface@@@Z 00404140 f i DemoAMain.obj
  0001:00003220       ?SetSDLUpdateRectImmediately@BaseEngine@@QAEXHHHH@Z 00404220 f i DemoAMain.obj
  0001:00003270       ?SetupBackgroundBuffer@DemoAMain@@UAEXXZ 00404270 f   DemoAMain.obj
+ 0001:000033b0       ?SetExitWithCode@BaseEngine@@QAEXH@Z 004043b0 f i MyProjectMain.obj
  0001:00003400       ??0FiiringMissile@@QAE@PAVMyProjectMain@@HHHHH@Z 00404400 f   FiiringMissile.obj
+ 0001:00003570       ?_Compat@?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEXABV12@@Z 00404570 f i MyProjectMain.obj
  0001:000035c0       ??0MovementPosition@@QAE@XZ 004045c0 f i FiiringMissile.obj
  0001:00003640       ??1FiiringMissile@@UAE@XZ  00404640 f   FiiringMissile.obj
- 0001:00003670       ??_EFiiringMissile@@UAEPAXI@Z 00404670 f i FiiringMissile.obj
  0001:00003670       ??_GFiiringMissile@@UAEPAXI@Z 00404670 f i FiiringMissile.obj
+ 0001:00003670       ??_EFiiringMissile@@UAEPAXI@Z 00404670 f i FiiringMissile.obj
  0001:000036c0       ?Calculate@MovementPosition@@QAEXH@Z 004046c0 f i FiiringMissile.obj
  0001:000037c0       ?DoUpdate@FiiringMissile@@UAEXH@Z 004047c0 f   FiiringMissile.obj
+ 0001:000038f0       ?close@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ 004048f0 f i MyProjectMain.obj
  0001:00003940       ?Draw@FiiringMissile@@UAEXXZ 00404940 f   FiiringMissile.obj
+ 0001:00003ac0       ??G?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEHABV01@@Z 00404ac0 f i MyProjectMain.obj
  0001:00003b20       ?GetEngine@DisplayableObject@@QAEPAVBaseEngine@@XZ 00404b20 f i FiiringMissile.obj
  0001:00003b40       ?GetID@FiiringMissile@@QAEHXZ 00404b40 f   FiiringMissile.obj
  0001:00003b60       ?GetMouseXClickedDown@BaseEngine@@QAEHXZ 00404b60 f i FiiringMissile.obj
@@ -179,15 +186,18 @@
  0001:00003e90       ??$_Fputc@D@std@@YA_NDPAU_iobuf@@@Z 00404e90 f i mainfunction.obj
  0001:00003ee0       ??$_Ungetc@D@std@@YA_NABDPAU_iobuf@@@Z 00404ee0 f i mainfunction.obj
  0001:00003f30       ??$use_facet@V?$codecvt@DDH@std@@@std@@YAABV?$codecvt@DDH@0@ABVlocale@0@@Z 00404f30 f i mainfunction.obj
+ 0001:00004040       ?end@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@XZ 00405040 f i MyProjectMain.obj
  0001:00004080       ??0?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@PBDPBU_Container_base0@1@@Z 00405080 f i mainfunction.obj
  0001:000040c0       ??0?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@PADPBU_Container_base0@1@@Z 004050c0 f i mainfunction.obj
  0001:00004100       ??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z 00405100 f i mainfunction.obj
  0001:00004190       ??0?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAE@XZ 00405190 f i mainfunction.obj
+ 0001:00004260       ?randFunc@MyProjectMain@@QAENHH@Z 00405260 f   MyProjectMain.obj
  0001:000042a0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 004052a0 f i mainfunction.obj
  0001:00004300       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00405300 f i mainfunction.obj
  0001:00004340       ??0?$fpos@H@std@@QAE@H_J@Z 00405340 f i mainfunction.obj
  0001:00004390       ??0?$fpos@H@std@@QAE@_J@Z  00405390 f i mainfunction.obj
  0001:000043f0       ??0MyProjectMain@@QAE@XZ   004053f0 f i mainfunction.obj
+ 0001:00004500       ?setstate@MyProjectMain@@QAEXW4State@1@@Z 00405500 f   MyProjectMain.obj
  0001:00004540       ??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 00405540 f i mainfunction.obj
  0001:000045a0       ??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAE@XZ 004055a0 f i mainfunction.obj
  0001:00004610       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00405610 f i mainfunction.obj
@@ -208,6 +218,8 @@
  0001:000048a0       ?_Adopt@_Iterator_base0@std@@QAEXPBX@Z 004058a0 f i mainfunction.obj
  0001:000048c0       ?_Chassign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXIID@Z 004058c0 f i mainfunction.obj
  0001:00004930       ?_Endwrite@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAE_NXZ 00405930 f i mainfunction.obj
+ 0001:00004b70       ??0?$allocator@D@std@@QAE@ABV01@@Z 00405b70 f i MyProjectMain.obj
+ 0001:00004b90       ?checkWin@MyProjectMain@@QAE_NXZ 00405b90 f   MyProjectMain.obj
  0001:00004bf0       ?_Getfacet@locale@std@@QBEPBVfacet@12@I@Z 00405bf0 f i mainfunction.obj
  0001:00004ca0       ?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z 00405ca0 f i mainfunction.obj
  0001:00004d90       ?_Initcvt@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPBV?$codecvt@DDH@2@@Z 00405d90 f i mainfunction.obj
@@ -226,6 +238,8 @@
  0001:00005200       ?imbue@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z 00406200 f i mainfunction.obj
  0001:00005240       ?not_eof@?$char_traits@D@std@@SAHABH@Z 00406240 f i mainfunction.obj
  0001:000052a0       ?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 004062a0 f i mainfunction.obj
+ 0001:00005610       ??$?8DD@std@@YA_NABV?$allocator@D@0@0@Z 00406610 f i MyProjectMain.obj
+ 0001:00005630       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 00406630 f i MyProjectMain.obj
  0001:000056f0       ?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 004066f0 f i mainfunction.obj
  0001:000058a0       ?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z 004068a0 f i mainfunction.obj
  0001:000059c0       ?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z 004069c0 f i mainfunction.obj
@@ -236,6 +250,8 @@
  0001:00005c80       ?to_char_type@?$char_traits@D@std@@SADABH@Z 00406c80 f i mainfunction.obj
  0001:00005ca0       ?to_int_type@?$char_traits@D@std@@SAHABD@Z 00406ca0 f i mainfunction.obj
  0001:00005cc0       ?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 00406cc0 f i mainfunction.obj
+ 0001:00006000       ??G?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEHABV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@@Z 00407000 f i MyProjectMain.obj
+ 0001:00006060       ??_D?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXXZ 00407060 f i MyProjectMain.obj
  0001:000060c0       ?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 004070c0 f i mainfunction.obj
  0001:00006180       _SDL_main                  00407180 f   mainfunction.obj
  0001:00006260       ??$GetAngle@N@@YANNNNN@Z   00407260 f i BaseEngine.obj
@@ -243,8 +259,8 @@
  0001:00006360       ??$Swap@N@@YAXAAN0@Z       00407360 f i BaseEngine.obj
  0001:000063b0       ??0BaseEngine@@QAE@H@Z     004073b0 f   BaseEngine.obj
  0001:00006550       ??1BaseEngine@@UAE@XZ      00407550 f   BaseEngine.obj
- 0001:000065f0       ??_EBaseEngine@@UAEPAXI@Z  004075f0 f i BaseEngine.obj
  0001:000065f0       ??_GBaseEngine@@UAEPAXI@Z  004075f0 f i BaseEngine.obj
+ 0001:000065f0       ??_EBaseEngine@@UAEPAXI@Z  004075f0 f i BaseEngine.obj
  0001:00006640       ?CleanUp@BaseEngine@@UAEXXZ 00407640 f   BaseEngine.obj
  0001:00006660       ?CopyAllBackgroundBuffer@BaseEngine@@QAEXXZ 00407660 f   BaseEngine.obj
  0001:00006750       ?CopyBackgroundPixels@BaseEngine@@QAEXHHHH@Z 00407750 f   BaseEngine.obj
@@ -253,14 +269,24 @@
  0001:00006970       ?DrawChanges@BaseEngine@@UAEXXZ 00407970 f   BaseEngine.obj
  0001:000069c0       ?DrawChangingObjects@BaseEngine@@UAEXXZ 004079c0 f   BaseEngine.obj
  0001:00006a50       ?DrawHollowOval@BaseEngine@@QAEXHHHHHHHHIPAUSDL_Surface@@@Z 00407a50 f   BaseEngine.obj
+ 0001:00006cc0       ?_Change_alloc@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXABU?$_Wrap_alloc@V?$allocator@D@std@@@2@@Z 00407cc0 f i MyProjectMain.obj
+ 0001:00006ce0       ?open@?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXPBDHH@Z 00407ce0 f i MyProjectMain.obj
  0001:00006d50       ?DrawLine@BaseEngine@@QAEXNNNNIPAUSDL_Surface@@@Z 00407d50 f   BaseEngine.obj
+ 0001:00006ea0       ?_Pdif@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SAIV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@0@Z 00407ea0 f i MyProjectMain.obj
  0001:00006f00       ?DrawOval@BaseEngine@@QAEXHHHHIPAUSDL_Surface@@@Z 00407f00 f   BaseEngine.obj
+ 0001:00007070       ?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 00408070 f i MyProjectMain.obj
  0001:000070d0       ?DrawPolygon@BaseEngine@@QAEXHPAN0IPAUSDL_Surface@@@Z 004080d0 f   BaseEngine.obj
+ 0001:000078d0       ??$?9V?$allocator@D@std@@V01@@std@@YA_NABU?$_Wrap_alloc@V?$allocator@D@std@@@0@0@Z 004088d0 f i MyProjectMain.obj
+ 0001:00007910       ?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 00408910 f i MyProjectMain.obj
+ 0001:000079d0       ?open@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXPBDHH@Z 004089d0 f i MyProjectMain.obj
+ 0001:00007a40       ?setObjecttoNULL@MyProjectMain@@QAEXH@Z 00408a40 f   MyProjectMain.obj
  0001:00007ad0       ?DrawRectangle@BaseEngine@@QAEXHHHHIPAUSDL_Surface@@@Z 00408ad0 f   BaseEngine.obj
  0001:00007ba0       ?DrawScreen@BaseEngine@@UAEXXZ 00408ba0 f   BaseEngine.obj
  0001:00007bf0       ?DrawString@BaseEngine@@QAEXHHPBDIPAVFont@@PAUSDL_Surface@@@Z 00408bf0 f   BaseEngine.obj
  0001:00007d80       ?DrawStrings@BaseEngine@@UAEXXZ 00408d80 f   BaseEngine.obj
  0001:00007da0       ?DrawThickLine@BaseEngine@@QAEXNNNNIHPAUSDL_Surface@@@Z 00408da0 f   BaseEngine.obj
+ 0001:000081c0       ??$forward@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z 004091c0 f i MyProjectMain.obj
+ 0001:000081e0       ?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@0V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@1@Z 004091e0 f i MyProjectMain.obj
  0001:000082d0       ?DrawTriangle@BaseEngine@@QAEXNNNNNNIPAUSDL_Surface@@@Z 004092d0 f   BaseEngine.obj
  0001:000085f0       ?DrawVerticalSidedRegion@BaseEngine@@QAEXNNNNNNIPAUSDL_Surface@@@Z 004095f0 f   BaseEngine.obj
  0001:00008980       ?FillBackground@BaseEngine@@UAEXI@Z 00409980 f   BaseEngine.obj
@@ -288,8 +314,8 @@
  0001:000097f0       ?UpdateAllObjects@BaseEngine@@UAEXH@Z 0040a7f0 f   BaseEngine.obj
  0001:00009890       ??0DisplayableObject@@QAE@PAVBaseEngine@@@Z 0040a890 f   DisplayableObject.obj
  0001:00009930       ??1DisplayableObject@@UAE@XZ 0040a930 f   DisplayableObject.obj
- 0001:00009960       ??_GDisplayableObject@@UAEPAXI@Z 0040a960 f i DisplayableObject.obj
  0001:00009960       ??_EDisplayableObject@@UAEPAXI@Z 0040a960 f i DisplayableObject.obj
+ 0001:00009960       ??_GDisplayableObject@@UAEPAXI@Z 0040a960 f i DisplayableObject.obj
  0001:000099b0       ?DoUpdate@DisplayableObject@@UAEXH@Z 0040a9b0 f   DisplayableObject.obj
  0001:000099d0       ?Draw@DisplayableObject@@UAEXXZ 0040a9d0 f   DisplayableObject.obj
  0001:00009a90       ?GetRedrawRect@DisplayableObject@@UAEXPAUSDL_Rect@@@Z 0040aa90 f   DisplayableObject.obj
@@ -313,11 +339,16 @@
  0001:0000a990       ?RenderImage@ImageSurface@@QAEXPAUSDL_Surface@@HHHHHH@Z 0040b990 f   JPGImage.obj
  0001:0000aa20       ?RenderImageWithMask@ImageData@@QAEXPAUSDL_Surface@@HHHHHH@Z 0040ba20 f   JPGImage.obj
  0001:0000abf0       ?ResizeTo@ImageData@@QAEXPAV1@HH_N@Z 0040bbf0 f   JPGImage.obj
+ 0001:0000aff0       ?GameAction@MyProjectMain@@UAEXXZ 0040bff0 f   MyProjectMain.obj
  0001:0000b0f0       ?ShrinkFrom@ImageData@@QAEXPAV1@H@Z 0040c0f0 f   JPGImage.obj
  0001:0000b360       ??0Missile@@QAE@PAVMyProjectMain@@HHHH@Z 0040c360 f   Missile.obj
  0001:0000b560       ??1Missile@@UAE@XZ         0040c560 f   Missile.obj
- 0001:0000b590       ??_EMissile@@UAEPAXI@Z     0040c590 f i Missile.obj
  0001:0000b590       ??_GMissile@@UAEPAXI@Z     0040c590 f i Missile.obj
+ 0001:0000b590       ??_EMissile@@UAEPAXI@Z     0040c590 f i Missile.obj
+ 0001:0000b5d0       ??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@D@Z 0040c5d0 f i MyProjectMain.obj
+ 0001:0000b600       ?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIABV12@II@Z 0040c600 f i MyProjectMain.obj
+ 0001:0000b9c0       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0040c9c0 f i MyProjectMain.obj
+ 0001:0000b9c0       ??_G?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0040c9c0 f i MyProjectMain.obj
  0001:0000bb60       ?Draw@Missile@@UAEXXZ      0040cb60 f   Missile.obj
  0001:0000bd50       ?SetMovement@Missile@@QAEXHHHHHHH@Z 0040cd50 f   Missile.obj
  0001:0000bde0       ?reset@Missile@@QAEXXZ     0040cde0 f   Missile.obj
@@ -325,16 +356,12 @@
  0001:0000bf80       ?startup@Missile@@QAEXXZ   0040cf80 f   Missile.obj
  0001:0000bfa0       ??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 0040cfa0 f i MyProjectMain.obj
  0001:0000c380       ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 0040d380 f i MyProjectMain.obj
- 0001:0000c810       ??$?8DD@std@@YA_NABV?$allocator@D@0@0@Z 0040d810 f i MyProjectMain.obj
  0001:0000c830       ??$?8V?$allocator@D@std@@V01@@std@@YA_NABU?$_Wrap_alloc@V?$allocator@D@std@@@0@0@Z 0040d830 f i MyProjectMain.obj
- 0001:0000c870       ??$?9V?$allocator@D@std@@V01@@std@@YA_NABU?$_Wrap_alloc@V?$allocator@D@std@@@0@0@Z 0040d870 f i MyProjectMain.obj
  0001:0000c8c0       ??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 0040d8c0 f i MyProjectMain.obj
  0001:0000c9b0       ??$assign@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@0@Z 0040d9b0 f i MyProjectMain.obj
- 0001:0000ca20       ??$forward@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z 0040da20 f i MyProjectMain.obj
- 0001:0000ca40       ??$getline@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@$$QAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@D@Z 0040da40 f i MyProjectMain.obj
+ 0001:0000cb10       ?DrawScreenString@BaseEngine@@QAEXHHPBDIPAVFont@@@Z 0040db10 f i MyProjectMain.obj
+ 0001:0000cb50       ?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIPBDI@Z 0040db50 f i MyProjectMain.obj
  0001:0000ccc0       ??$getline@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 0040dcc0 f i MyProjectMain.obj
- 0001:0000cd20       ??$move@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@std@@YA$$QAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@@Z 0040dd20 f i MyProjectMain.obj
- 0001:0000cd40       ??0?$allocator@D@std@@QAE@ABV01@@Z 0040dd40 f i MyProjectMain.obj
  0001:0000cd60       ??0?$basic_fstream@DU?$char_traits@D@std@@@std@@QAE@XZ 0040dd60 f i MyProjectMain.obj
  0001:0000ce70       ??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@XZ 0040de70 f i MyProjectMain.obj
  0001:0000cf80       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 0040df80 f i MyProjectMain.obj
@@ -353,57 +380,27 @@
  0001:0000d630       ??8?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBE_NABV01@@Z 0040e630 f i MyProjectMain.obj
  0001:0000d680       ??Bsentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QBEPQ?$_Bool_struct@V?$basic_istream@DU?$char_traits@D@std@@@std@@@2@HXZ 0040e680 f i MyProjectMain.obj
  0001:0000d6c0       ??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QBEPQ?$_Bool_struct@V?$basic_ostream@DU?$char_traits@D@std@@@std@@@2@HXZ 0040e6c0 f i MyProjectMain.obj
- 0001:0000d700       ??G?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEHABV01@@Z 0040e700 f i MyProjectMain.obj
- 0001:0000d740       ??G?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEHABV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@@Z 0040e740 f i MyProjectMain.obj
- 0001:0000d780       ??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV01@@Z 0040e780 f i MyProjectMain.obj
- 0001:0000d7b0       ??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@D@Z 0040e7b0 f i MyProjectMain.obj
  0001:0000d7e0       ??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z 0040e7e0 f i MyProjectMain.obj
- 0001:0000d810       ??_D?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXXZ 0040e810 f i MyProjectMain.obj
- 0001:0000d850       ??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ 0040e850 f i MyProjectMain.obj
  0001:0000d884       ??_E?$basic_fstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 0040e884 f i MyProjectMain.obj
  0001:0000d88e       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z 0040e88e f i MyProjectMain.obj
- 0001:0000d8a0       ??_G?$basic_fstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0040e8a0 f i MyProjectMain.obj
- 0001:0000d8a0       ??_E?$basic_fstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0040e8a0 f i MyProjectMain.obj
- 0001:0000d8f0       ??_G?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0040e8f0 f i MyProjectMain.obj
- 0001:0000d8f0       ??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0040e8f0 f i MyProjectMain.obj
  0001:0000d940       ?DrawChanges@MyProjectMain@@UAEXXZ 0040e940 f   MyProjectMain.obj
  0001:0000d9c0       ?DrawScreen@MyProjectMain@@UAEXXZ 0040e9c0 f   MyProjectMain.obj
- 0001:0000da40       ?DrawScreenString@BaseEngine@@QAEXHHPBDIPAVFont@@@Z 0040ea40 f i MyProjectMain.obj
- 0001:0000da90       ?DrawStrings@MyProjectMain@@UAEXXZ 0040ea90 f   MyProjectMain.obj
+ 0001:0000db20       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 0040eb20 f i MyProjectMain.obj
+ 0001:0000dc70       ??$getline@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@$$QAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@D@Z 0040ec70 f i MyProjectMain.obj
  0001:0000df40       ?DrawableObjectsChanged@BaseEngine@@QAEXXZ 0040ef40 f i MyProjectMain.obj
- 0001:0000df70       ?GameAction@MyProjectMain@@UAEXXZ 0040ef70 f   MyProjectMain.obj
  0001:0000dfe0       ?InitialiseObjects@MyProjectMain@@UAEHXZ 0040efe0 f   MyProjectMain.obj
  0001:0000e2b0       ?KeyDown@MyProjectMain@@UAEXH@Z 0040f2b0 f   MyProjectMain.obj
  0001:0000e600       ?MouseDown@MyProjectMain@@UAEXHHH@Z 0040f600 f   MyProjectMain.obj
- 0001:0000e810       ?SetExitWithCode@BaseEngine@@QAEXH@Z 0040f810 f i MyProjectMain.obj
  0001:0000e840       ?SetNextUpdateRect@BaseEngine@@QAEXHHHH@Z 0040f840 f i MyProjectMain.obj
  0001:0000e8a0       ?SetupBackgroundBuffer@MyProjectMain@@UAEXXZ 0040f8a0 f   MyProjectMain.obj
  0001:0000ea30       ?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@FI@AEXXZ 0040fa30 f i MyProjectMain.obj
  0001:0000ea3f       ?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@GA@AEXXZ 0040fa3f f i MyProjectMain.obj
  0001:0000ea4e       ?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@GA@AEXXZ 0040fa4e f i MyProjectMain.obj
  0001:0000ea60       ?_Assign_rv@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@@Z 0040fa60 f i MyProjectMain.obj
- 0001:0000eb10       ?_Change_alloc@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXABU?$_Wrap_alloc@V?$allocator@D@std@@@2@@Z 0040fb10 f i MyProjectMain.obj
- 0001:0000eb30       ?_Compat@?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEXABV12@@Z 0040fb30 f i MyProjectMain.obj
- 0001:0000eb50       ?_Pdif@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SAIV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@0@Z 0040fb50 f i MyProjectMain.obj
- 0001:0000eb90       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 0040fb90 f i MyProjectMain.obj
  0001:0000ebd0       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 0040fbd0 f i MyProjectMain.obj
  0001:0000ecc0       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z 0040fcc0 f i MyProjectMain.obj
- 0001:0000ed00       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 0040fd00 f i MyProjectMain.obj
- 0001:0000ede0       ?checkWin@MyProjectMain@@QAE_NXZ 0040fde0 f   MyProjectMain.obj
- 0001:0000ee50       ?close@?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXXZ 0040fe50 f i MyProjectMain.obj
- 0001:0000eea0       ?close@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ 0040fea0 f i MyProjectMain.obj
- 0001:0000eef0       ?end@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@XZ 0040fef0 f i MyProjectMain.obj
- 0001:0000ef30       ?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDHH@Z 0040ff30 f i MyProjectMain.obj
- 0001:0000f020       ?open@?$basic_fstream@DU?$char_traits@D@std@@@std@@QAEXPBDHH@Z 00410020 f i MyProjectMain.obj
- 0001:0000f0a0       ?open@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXPBDHH@Z 004100a0 f i MyProjectMain.obj
- 0001:0000f120       ?randFunc@MyProjectMain@@QAENHH@Z 00410120 f   MyProjectMain.obj
- 0001:0000f170       ?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIABV12@II@Z 00410170 f i MyProjectMain.obj
- 0001:0000f4e0       ?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIPBDI@Z 004104e0 f i MyProjectMain.obj
- 0001:0000f6b0       ?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@0V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@2@1@Z 004106b0 f i MyProjectMain.obj
- 0001:0000f7a0       ?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 004107a0 f i MyProjectMain.obj
- 0001:0000f810       ?saveFile@MyProjectMain@@QAEXXZ 00410810 f   MyProjectMain.obj
- 0001:0000f980       ?setObjecttoNULL@MyProjectMain@@QAEXH@Z 00410980 f   MyProjectMain.obj
- 0001:0000f9f0       ?setstate@MyProjectMain@@QAEXW4State@1@@Z 004109f0 f   MyProjectMain.obj
+ 0001:0000f0e0       ?saveFile@MyProjectMain@@QAEXXZ 004100e0 f   MyProjectMain.obj
+ 0001:0000f200       ?DrawStrings@MyProjectMain@@UAEXXZ 00410200 f   MyProjectMain.obj
  0001:0000fa60       ?DrawAllTilesAt@TileManager@@QAEXPAVBaseEngine@@PAUSDL_Surface@@HHHHHH@Z 00410a60 f   TileManager.obj
  0001:0000fb30       ?DrawTileAt@TileManager@@UAEXPAVBaseEngine@@PAUSDL_Surface@@HHHH@Z 00410b30 f   TileManager.obj
  0001:0000fbe0       ?GetBackground@BaseEngine@@QAEPAUSDL_Surface@@XZ 00410be0 f i TileManager.obj
@@ -422,8 +419,8 @@
  0001:00010140       ??_GBouncingBall1@@UAEPAXI@Z 00411140 f i BouncingBall.obj
  0001:00010190       ??_GBouncingBall2@@UAEPAXI@Z 00411190 f i BouncingBall.obj
  0001:00010190       ??_EBouncingBall2@@UAEPAXI@Z 00411190 f i BouncingBall.obj
- 0001:000101e0       ??_EBouncingBall@@UAEPAXI@Z 004111e0 f i BouncingBall.obj
  0001:000101e0       ??_GBouncingBall@@UAEPAXI@Z 004111e0 f i BouncingBall.obj
+ 0001:000101e0       ??_EBouncingBall@@UAEPAXI@Z 004111e0 f i BouncingBall.obj
  0001:00010230       ?DoUpdate@BouncingBall1@@UAEXH@Z 00411230 f   BouncingBall.obj
  0001:00010440       ?DoUpdate@BouncingBall2@@UAEXH@Z 00411440 f   BouncingBall.obj
  0001:00010870       ?DoUpdate@BouncingBall@@UAEXH@Z 00411870 f   BouncingBall.obj
@@ -455,13 +452,13 @@
  0001:000119c0       ?SetupBackgroundBuffer@BouncingBallMain@@UAEXXZ 004129c0 f   BouncingBallMain.obj
  0001:000122b0       ??0Demo2aMain@@QAE@XZ      004132b0 f   Demo2aMain.obj
  0001:000122f0       ??1Demo2aMain@@UAE@XZ      004132f0 f   Demo2aMain.obj
- 0001:00012320       ??_EDemo2aMain@@UAEPAXI@Z  00413320 f i Demo2aMain.obj
  0001:00012320       ??_GDemo2aMain@@UAEPAXI@Z  00413320 f i Demo2aMain.obj
+ 0001:00012320       ??_EDemo2aMain@@UAEPAXI@Z  00413320 f i Demo2aMain.obj
  0001:00012370       ?SetupBackgroundBuffer@Demo2aMain@@UAEXXZ 00413370 f   Demo2aMain.obj
  0001:000123a0       ??0Demo2Main@@QAE@XZ       004133a0 f   Demo2Main.obj
  0001:00012430       ??1Demo2Main@@UAE@XZ       00413430 f   Demo2Main.obj
- 0001:000124b0       ??_EDemo2Main@@UAEPAXI@Z   004134b0 f i Demo2Main.obj
  0001:000124b0       ??_GDemo2Main@@UAEPAXI@Z   004134b0 f i Demo2Main.obj
+ 0001:000124b0       ??_EDemo2Main@@UAEPAXI@Z   004134b0 f i Demo2Main.obj
  0001:00012500       ?DrawStrings@Demo2Main@@UAEXXZ 00413500 f   Demo2Main.obj
  0001:00012580       ?GameAction@Demo2Main@@UAEXXZ 00413580 f   Demo2Main.obj
  0001:000125e0       ?InitialiseObjects@Demo2Main@@UAEHXZ 004135e0 f   Demo2Main.obj
@@ -486,8 +483,8 @@
  0001:00012e10       ?GetTileWidth@Demo2TileManager@@UAEHXZ 00413e10 f   Demo2TileManager.obj
  0001:00012e30       ??0Demo3Main@@QAE@XZ       00413e30 f   Demo3Main.obj
  0001:00012ec0       ??1Demo3Main@@UAE@XZ       00413ec0 f   Demo3Main.obj
- 0001:00012f40       ??_GDemo3Main@@UAEPAXI@Z   00413f40 f i Demo3Main.obj
  0001:00012f40       ??_EDemo3Main@@UAEPAXI@Z   00413f40 f i Demo3Main.obj
+ 0001:00012f40       ??_GDemo3Main@@UAEPAXI@Z   00413f40 f i Demo3Main.obj
  0001:00012f90       ?DrawStrings@Demo3Main@@UAEXXZ 00413f90 f   Demo3Main.obj
  0001:00013010       ?GameAction@Demo3Main@@UAEXXZ 00414010 f   Demo3Main.obj
  0001:00013070       ?InitialiseObjects@Demo3Main@@UAEHXZ 00414070 f   Demo3Main.obj
@@ -496,8 +493,8 @@
  0001:00013390       ?SetupBackgroundBuffer@Demo3Main@@UAEXXZ 00414390 f   Demo3Main.obj
  0001:00013560       ??0Demo3Object@@QAE@PAVDemo3Main@@HH@Z 00414560 f   Demo3Object.obj
  0001:000136b0       ??1Demo3Object@@UAE@XZ     004146b0 f   Demo3Object.obj
- 0001:000136e0       ??_GDemo3Object@@UAEPAXI@Z 004146e0 f i Demo3Object.obj
  0001:000136e0       ??_EDemo3Object@@UAEPAXI@Z 004146e0 f i Demo3Object.obj
+ 0001:000136e0       ??_GDemo3Object@@UAEPAXI@Z 004146e0 f i Demo3Object.obj
  0001:00013730       ?DoUpdate@Demo3Object@@UAEXH@Z 00414730 f   Demo3Object.obj
  0001:000139c0       ?Draw@Demo3Object@@UAEXXZ  004149c0 f   Demo3Object.obj
  0001:00013a50       ?GetTileManager@Demo3Main@@QAEAAVDemo3TileManager@@XZ 00414a50 f i Demo3Object.obj
@@ -505,8 +502,8 @@
  0001:00013af0       ?GetYDiffForDirection@Demo3Object@@QAEHH@Z 00414af0 f i Demo3Object.obj
  0001:00013b70       ??0Demo3ObjectFinished@@QAE@PAVDemo3Main@@HH@Z 00414b70 f   Demo3ObjectFinished.obj
  0001:00013cc0       ??1Demo3ObjectFinished@@UAE@XZ 00414cc0 f   Demo3ObjectFinished.obj
- 0001:00013cf0       ??_EDemo3ObjectFinished@@UAEPAXI@Z 00414cf0 f i Demo3ObjectFinished.obj
  0001:00013cf0       ??_GDemo3ObjectFinished@@UAEPAXI@Z 00414cf0 f i Demo3ObjectFinished.obj
+ 0001:00013cf0       ??_EDemo3ObjectFinished@@UAEPAXI@Z 00414cf0 f i Demo3ObjectFinished.obj
  0001:00013d40       ?DoUpdate@Demo3ObjectFinished@@UAEXH@Z 00414d40 f   Demo3ObjectFinished.obj
  0001:00014100       ?Draw@Demo3ObjectFinished@@UAEXXZ 00415100 f   Demo3ObjectFinished.obj
  0001:000141e0       ?GetXDiffForDirection@Demo3ObjectFinished@@QAEHH@Z 004151e0 f i Demo3ObjectFinished.obj
@@ -518,8 +515,8 @@
  0001:00014570       ?GetTileWidth@Demo3TileManager@@UAEHXZ 00415570 f   Demo3TileManager.obj
  0001:00014590       ??0Demo4Main@@QAE@XZ       00415590 f   Demo4Main.obj
  0001:00014630       ??1Demo4Main@@UAE@XZ       00415630 f   Demo4Main.obj
- 0001:000146b0       ??_EDemo4Main@@UAEPAXI@Z   004156b0 f i Demo4Main.obj
  0001:000146b0       ??_GDemo4Main@@UAEPAXI@Z   004156b0 f i Demo4Main.obj
+ 0001:000146b0       ??_EDemo4Main@@UAEPAXI@Z   004156b0 f i Demo4Main.obj
  0001:00014700       ?DrawChanges@Demo4Main@@UAEXXZ 00415700 f   Demo4Main.obj
  0001:00014760       ?DrawScreen@Demo4Main@@UAEXXZ 00415760 f   Demo4Main.obj
  0001:000147c0       ?DrawStrings@Demo4Main@@UAEXXZ 004157c0 f   Demo4Main.obj
@@ -758,6 +755,9 @@
  0001:0001725c       _SDL_SetModuleHandle       0041825c f   sdl:SDL.dll
  0001:00017262       _SDL_strlcpy               00418262 f   sdl:SDL.dll
  0001:00017270       ?DoUpdate@Missile@@UAEXH@Z 00418270 f   Missile.obj
+ 0001:00017830       ??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ 00418830 f i MyProjectMain.obj
+ 0001:00017a40       ??_G?$basic_fstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00418a40 f i MyProjectMain.obj
+ 0001:00017a40       ??_E?$basic_fstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 00418a40 f i MyProjectMain.obj
  0002:00000000       ___xc_a                    0041e000     MSVCRT:cinitexe.obj
  0002:00000464       ___xc_z                    0041e464     MSVCRT:cinitexe.obj
  0002:00000568       ___xi_a                    0041e568     MSVCRT:cinitexe.obj
@@ -934,12 +934,13 @@
  0002:00000df8       ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@ 0041edf8     Base.obj
  0002:00000e18       ??_C@_1IK@PGFIONJJ@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAd?$AAo?$AAm?$AAi?$AAn?$AAi?$AAc?$AA?2?$AAg?$AAi?$AAt?$AA?2?$AAc?$AA?9?$AA?9?$AA?9?$AAs?$AAt?$AAu?$AAf?$AAf?$AA?9?$AAm@ 0041ee18     DemoAMain.obj
  0002:00000ea4       ??_C@_0N@NLEKBMAD@?$CIS?$CJtart?5Game?$AA@ 0041eea4     MyProjectMain.obj
+ 0002:00000eb4       ??_8?$basic_fstream@DU?$char_traits@D@std@@@std@@7B?$basic_ostream@DU?$char_traits@D@std@@@1@@ 0041eeb4     MyProjectMain.obj
  0002:00000ec0       ??_C@_1BA@GEGIDABA@?$AAi?$AAX?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?$AA@ 0041eec0     DemoAMain.obj
  0002:00000ed4       ??_C@_1DC@EBDLPFLK@?$AAi?$AAX?$AA?5?$AA?$DM?$AA?5?$AAm?$AA_?$AAi?$AAI?$AAn?$AAt?$AAs?$AAP?$AAe?$AAr?$AAS?$AAc?$AAr?$AAe?$AAe?$AAn?$AAR?$AAo?$AAw?$AA?$AA@ 0041eed4     DemoAMain.obj
  0002:00000f10       ??_C@_1BA@PJGHNBGG@?$AAi?$AAY?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?$AA@ 0041ef10     DemoAMain.obj
  0002:00000f24       ??_C@_1CK@LKNFCKCC@?$AAi?$AAY?$AA?5?$AA?$DM?$AA?5?$AAm?$AA_?$AAi?$AAS?$AAc?$AAr?$AAe?$AAe?$AAn?$AAH?$AAe?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 0041ef24     DemoAMain.obj
  0002:00000f5c       ??_7DemoAMain@@6B@         0041ef5c     DemoAMain.obj
- 0002:00000fb0       ??_8?$basic_ifstream@DU?$char_traits@D@std@@@std@@7B@ 0041efb0     MyProjectMain.obj
+ 0002:00000fb4       ??_7?$basic_ifstream@DU?$char_traits@D@std@@@std@@6B@ 0041efb4     MyProjectMain.obj
  0002:00000fc4       ??_C@_06IPGPIAII@?$CFd?5?$CFd?6?$AA@ 0041efc4     DemoAMain.obj
  0002:00000fd0       ??_7FiiringMissile@@6B@    0041efd0     FiiringMissile.obj
  0002:00000ffc       ?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 0041effc     mainfunction.obj
@@ -947,12 +948,13 @@
  0002:00001050       ??_7?$basic_ofstream@DU?$char_traits@D@std@@@std@@6B@ 0041f050     mainfunction.obj
  0002:00001060       ??_8?$basic_ofstream@DU?$char_traits@D@std@@@std@@7B@ 0041f060     mainfunction.obj
  0002:00001074       ??_7MyProjectMain@@6B@     0041f074     mainfunction.obj
- 0002:000010c8       ??_C@_06KPFLEFPO@?$CIE?$CJxit?$AA@ 0041f0c8     MyProjectMain.obj
+ 0002:000010c8       ??_C@_0O@LKJHAAAB@Highscore?4txt?$AA@ 0041f0c8     MyProjectMain.obj
  0002:000010dc       ??_C@_08IDPINFPD@Player?51?$AA@ 0041f0dc     mainfunction.obj
  0002:000010e8       ??_C@_0CH@NFALBJKB@Missle?5Command?1WARGAMES?5?3?5Size?5?$CF@ 0041f0e8     mainfunction.obj
  0002:00001118       ??_C@_0BI@NHFDFHOB@Cornerstone?5Regular?4ttf?$AA@ 0041f118     mainfunction.obj
  0002:00001134       ??_C@_08EPJLHIJG@bad?5cast?$AA@ 0041f134     mainfunction.obj
  0002:00001144       ??_7BaseEngine@@6B@        0041f144     BaseEngine.obj
+ 0002:0000119c       ??_7?$basic_fstream@DU?$char_traits@D@std@@@std@@6B@ 0041f19c     MyProjectMain.obj
  0002:000011ac       ??_C@_0BI@FBLGJKMC@Unable?5to?5init?5SDL?3?5?$CFs?6?$AA@ 0041f1ac     BaseEngine.obj
  0002:000011c8       ??_C@_0BM@KCLNHPJ@Unable?5to?5set?5up?5video?3?5?$CFs?6?$AA@ 0041f1c8     BaseEngine.obj
  0002:000011ec       ??_C@_0CM@IHOJMAHM@Draw?5for?5points?5?$CFd?0?5?$CFd?0?5?$CFd?5of?5?$CFd@ 0041f1ec     BaseEngine.obj
@@ -977,15 +979,14 @@
  0002:000013dc       ??_C@_00CNPNBAHC@?$AA@     0041f3dc     MyProjectMain.obj
  0002:000013e4       ??_C@_09GKAKMAIM@?$CIO?$CJptions?$AA@ 0041f3e4     MyProjectMain.obj
  0002:000013f4       ??_C@_0M@KIPNGOIC@?$CIH?$CJighscore?$AA@ 0041f3f4     MyProjectMain.obj
- 0002:00001400       ??_C@_08OOEJOABA@?$CFs?5?3?5?$CF6d?$AA@ 0041f400     MyProjectMain.obj
- 0002:0000141c       ??_C@_0BD@BBFIOEMB@Current?5Name?5is?5?$CFs?$AA@ 0041f41c     MyProjectMain.obj
- 0002:0000145c       ??_C@_0CN@BKCOOCLH@press?5?$CIY?$CJ?5to?5enter?5new?5name?5else@ 0041f45c     MyProjectMain.obj
- 0002:000014ac       ??_7?$basic_ifstream@DU?$char_traits@D@std@@@std@@6B@ 0041f4ac     MyProjectMain.obj
- 0002:000014c8       ??_C@_0O@LKJHAAAB@Highscore?4txt?$AA@ 0041f4c8     MyProjectMain.obj
- 0002:000014e0       ??_C@_0BB@LJJKHPLC@Enter?5New?5Name?5?3?$AA@ 0041f4e0     MyProjectMain.obj
- 0002:000014f8       ??_7?$basic_fstream@DU?$char_traits@D@std@@@std@@6B@ 0041f4f8     MyProjectMain.obj
- 0002:00001508       ??_8?$basic_fstream@DU?$char_traits@D@std@@@std@@7B?$basic_istream@DU?$char_traits@D@std@@@1@@ 0041f508     MyProjectMain.obj
- 0002:00001514       ??_8?$basic_fstream@DU?$char_traits@D@std@@@std@@7B?$basic_ostream@DU?$char_traits@D@std@@@1@@ 0041f514     MyProjectMain.obj
+ 0002:00001400       ??_C@_02DKCKIIND@?$CFs?$AA@ 0041f400     MyProjectMain.obj
+ 0002:00001430       ??_C@_0BD@BBFIOEMB@Current?5Name?5is?5?$CFs?$AA@ 0041f430     MyProjectMain.obj
+ 0002:00001444       ??_C@_0CN@BKCOOCLH@press?5?$CIY?$CJ?5to?5enter?5new?5name?5else@ 0041f444     MyProjectMain.obj
+ 0002:00001480       ??_C@_0DD@CAEHPKAI@?$CIP?$CJaused?4?5Press?5?$CIP?$CJ?5to?5continue?0@ 0041f480     MyProjectMain.obj
+ 0002:000014c8       ??_8?$basic_ifstream@DU?$char_traits@D@std@@@std@@7B@ 0041f4c8     MyProjectMain.obj
+ 0002:000014e0       ??_C@_06KPFLEFPO@?$CIE?$CJxit?$AA@ 0041f4e0     MyProjectMain.obj
+ 0002:000014f4       ??_C@_0BB@LJJKHPLC@Enter?5New?5Name?5?3?$AA@ 0041f4f4     MyProjectMain.obj
+ 0002:00001514       ??_8?$basic_fstream@DU?$char_traits@D@std@@@std@@7B?$basic_istream@DU?$char_traits@D@std@@@1@@ 0041f514     MyProjectMain.obj
  0002:00001528       ??_7BouncingBall@@6B@      0041f528     BouncingBall.obj
  0002:00001558       ??_7BouncingBall1@@6B@     0041f558     BouncingBall.obj
  0002:00001588       ??_7BouncingBall2@@6B@     0041f588     BouncingBall.obj
@@ -1060,7 +1061,7 @@
  0002:00001c04       ??_C@_0BA@KMDNPDDA@WinMain?$CI?$CJ?5error?$AA@ 0041fc04     sdlmain:SDL_win32_main.obj
  0002:00001c14       ??_C@_09KDGFPKMD@DDRAW?4DLL?$AA@ 0041fc14     sdlmain:SDL_win32_main.obj
  0002:00001c20       __load_config_used         0041fc20     MSVCRT:loadcfg.obj
- 0002:00001c68       ??_C@_0DD@CAEHPKAI@?$CIP?$CJaused?4?5Press?5?$CIP?$CJ?5to?5continue?0@ 0041fc68     MyProjectMain.obj
+ 0002:00001c68       ??_C@_08OOEJOABA@?$CFs?5?3?5?$CF6d?$AA@ 0041fc68     MyProjectMain.obj
  0002:00002024       ??_R4error_category@std@@6B@ 00420024     Base.obj
  0002:0000203c       ??_R3error_category@std@@8 0042003c     Base.obj
  0002:00002050       ??_R2error_category@std@@8 00420050     Base.obj

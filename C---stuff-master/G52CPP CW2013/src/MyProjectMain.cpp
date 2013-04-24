@@ -74,7 +74,7 @@ int MyProjectMain::InitialiseObjects()
 	//initiliase objects properties
 	int max = (GetScreenWidth()-100)/100;
 	BaseY = GetScreenHeight() - 50;
-	
+
 
 	// Create an array one element larger than the number of objects that you want.
 
@@ -86,7 +86,7 @@ int MyProjectMain::InitialiseObjects()
 	for(int i=11;i<19;i++)
 	{
 		m_ppDisplayableObjects[i] = new Base(this,i,3,(20+(max*((i-10)*10))),BaseY);
-		
+
 	}
 	//0-10 = missiles
 	for(int i=0;i<11;i++)
@@ -102,9 +102,9 @@ int MyProjectMain::InitialiseObjects()
 	m_ppDisplayableObjects[19] = new FiiringMissile(this,0,0,0,0,0);
 
 	// i.e. The LAST entry has to be NULL. The fact that it is NULL is used in order to work out where the end of the array is.
-	
+
 	m_ppDisplayableObjects[20] = NULL;
-	
+
 
 
 	// NOTE: We also need to destroy the objects, but the method at the 
@@ -137,6 +137,8 @@ void MyProjectMain::DrawStrings()
 		break;
 	case statemain:
 		// Build the string to print
+		sprintf(tempc,"%s",Name.c_str());
+
 		sprintf( buf, "%s : %6d",tempc,score );
 		highscore = string(buf);
 		// Clear the top of the screen, since we about to draw text on it.
@@ -218,7 +220,7 @@ void MyProjectMain::MouseDown( int iButton, int iX, int iY )
 
 	if(iButton == SDL_BUTTON_LEFT)
 	{
-		
+
 
 		if(mode ==1)
 		{
@@ -226,14 +228,14 @@ void MyProjectMain::MouseDown( int iButton, int iX, int iY )
 			setObjecttoNULL(19);
 			m_ppDisplayableObjects[19] = new FiiringMissile(this,0,xstart,ystart,iX,iY);
 			mode--;
-			
+
 		}else if(mode==0)
 		{
 			xstart =10;
 			setObjecttoNULL(19);
 			m_ppDisplayableObjects[19] = new FiiringMissile(this,0,xstart,ystart,iX,iY);
 			mode++;
-			
+
 		}
 	}
 
@@ -249,7 +251,8 @@ void MyProjectMain::KeyDown(int iKeyCode)
 	{
 	case SDLK_s:
 		if(CurState == stateinit)
-		score =0;
+			score =0;
+		GameInit();
 		CurState = statemain;
 		// Force redraw of background
 		SetupBackgroundBuffer();
@@ -267,7 +270,7 @@ void MyProjectMain::KeyDown(int iKeyCode)
 			SetupBackgroundBuffer();
 			//// Redraw the whole screen now
 			Redraw(true);
-			
+
 			break;
 
 		case statepause:
@@ -277,7 +280,7 @@ void MyProjectMain::KeyDown(int iKeyCode)
 			SetupBackgroundBuffer();
 			// Redraw the whole screen now
 			Redraw(true);
-			
+
 			break;
 		}
 		break;
@@ -304,7 +307,7 @@ void MyProjectMain::KeyDown(int iKeyCode)
 			SetupBackgroundBuffer();
 			// Redraw the whole screen now
 			Redraw(true);
-			
+
 			break;
 
 		case stateHscore:
@@ -313,7 +316,7 @@ void MyProjectMain::KeyDown(int iKeyCode)
 			SetupBackgroundBuffer();
 			// Redraw the whole screen now
 			Redraw(true);
-			
+
 			break;
 
 		case stateinit:
@@ -326,7 +329,7 @@ void MyProjectMain::KeyDown(int iKeyCode)
 			SetupBackgroundBuffer();
 			// Redraw the whole screen now
 			Redraw(true);
-			
+
 			break;
 		}
 		break;
@@ -396,13 +399,13 @@ double MyProjectMain::randFunc(int min, int max)
 
 void MyProjectMain::saveFile()
 {
-     fstream filestr;
+	fstream filestr;
 
 	filestr.open ("Highscore.txt", fstream::in | fstream::out | fstream::app);
 
 	filestr<<highscore+"\n"<<endl;
 	filestr.close();
-	
+
 
 }
 
@@ -428,18 +431,18 @@ void MyProjectMain::setstate(State newstate)
 bool MyProjectMain::checkWin()
 {
 
-	
-	DisplayableObject* pobject;
-	
-	for (int i = 11; i <19; i++)      
-    {         
-      pobject = GetDisplayableObject(i);
 
-	  if(pobject->IsVisible())
-	  {
-		  return false;
-	  }
-    }
+	DisplayableObject* pobject;
+
+	for (int i = 11; i <19; i++)      
+	{         
+		pobject = GetDisplayableObject(i);
+
+		if(pobject->IsVisible())
+		{
+			return false;
+		}
+	}
 
 	return true;
 
